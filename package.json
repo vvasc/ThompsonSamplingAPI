@@ -1,0 +1,29 @@
+{
+  "name": "sql-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvasc/SQL-Tests.git"
+  },
+  "author": "vvasc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvasc/SQL-Tests/issues"
+  },
+  "homepage": "https://github.com/vvasc/SQL-Tests#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "mssql": "^4.1.0",
+    "nodemon": "^1.17.4",
+    "restify": "^7.2.0",
+    "restify-cors-middleware": "^1.1.0",
+    "restify-plugins": "^1.6.0",
+    "restify-validator": "^0.3.1",
+    "tedious": "^2.6.1"
+  }
+}

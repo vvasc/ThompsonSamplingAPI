@@ -1,4 +1,5 @@
 var helpers = require('../config/functions.js');
+var method = require('../controllers/python.controller.js');
 
 var users = {};
 var max_user_id = 0;
@@ -25,6 +26,7 @@ module.exports.server =  function (server) {
   server.post("/", function(req, res, next) {
     //req.assert('', '').notEmpty();  
     var value = req.body;
+    value = method.ths(value);
     helpers.success(res, next, value);
   });
 }

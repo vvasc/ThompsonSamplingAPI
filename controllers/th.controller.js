@@ -27,6 +27,6 @@ module.exports.server =  function (server) {
     //req.assert('', '').notEmpty();  
     var value = req.body;
     value = method.ths(value);
-    helpers.success(res, next, value);
+    //helpers.success(res, next, value);
   });
 }

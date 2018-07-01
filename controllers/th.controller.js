@@ -24,8 +24,7 @@ module.exports.server =  function (server) {
 
   server.post("/", function(req, res, next) {
     //req.assert('', '').notEmpty();  
-    var value = req.params;
-    console.log(value);
+    var value = req.body;
     helpers.success(res, next, value);
   });
 }

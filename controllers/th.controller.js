@@ -23,7 +23,6 @@ module.exports.server =  function (server) {
  // });
 
   server.post("/", function(req, res, next) {
-    //req.assert('', '').notEmpty();  
     var value = req.body;
     var click = new Array();
     var n_click = new Array();

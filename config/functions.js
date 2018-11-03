@@ -1,7 +1,7 @@
-function _response(res, next, status, data, http_error) {
+function _response(res, next, status, data) {
   var response = {
     'status': status,
-    'data': data
+    'data': data,
   };
   res.setHeader('context-type', 'application/json');
   res.writeHead(200);
@@ -10,7 +10,7 @@ function _response(res, next, status, data, http_error) {
 };
 
 module.exports.success =  function (res, next, data) {
-  _response(res, next, 'success', data, 200);
+  _response(res, next, 'success', data);
 }
 
 module.exports.failure =  function (res, next, data, http_error) {

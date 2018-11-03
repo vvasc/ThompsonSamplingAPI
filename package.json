@@ -18,12 +18,15 @@
   "homepage": "https://github.com/vvasc/SQL-Tests#readme",
   "dependencies": {
     "cors": "^2.8.4",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.3.1",
     "mssql": "^4.1.0",
     "nodemon": "^1.17.4",
     "restify": "^7.2.0",
     "restify-cors-middleware": "^1.1.0",
     "restify-plugins": "^1.6.0",
     "restify-validator": "^0.3.1",
+    "save": "^2.3.2",
     "tedious": "^2.6.1"
   }
 }
